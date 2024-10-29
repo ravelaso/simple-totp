@@ -1,7 +1,6 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
 	"log"
 	"os"
@@ -26,6 +25,4 @@ func main() {
 	}
 
 	fmt.Printf("Your OTP is: %s\n", passcode)
-	fmt.Print("Press 'Enter' to close...")
-	bufio.NewReader(os.Stdin).ReadBytes('\n')
 }
